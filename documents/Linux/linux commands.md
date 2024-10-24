@@ -4,7 +4,9 @@
 
 | Command     | Description | Example |
 | :---        | :---:       |:---:     |
-| [ls](https://www.geeksforgeeks.org/ls-command-in-linux/)          | List files and directories       |  <table>  <tbody>  <tr>  <td>ls -l</td><td>Long format listing</td>  <td><img src=".././Linux/images/ls-l.PNG"   alt="test" style="width:250px;"/></td>  </tr> <tr>  <td>ls -a</td> <td>Include hidden files hidden ones</td> <td><img src=".././Linux/images/ls-a.PNG" alt="test" style="width:600px;"/></td>  </tr> <tr>  <td>ls -lh</td> <td>Human-readable file sizes.</td> <td><img src=".././Linux/images/ls-lh.PNG" alt="test" style="width:250px;"/></td>  </tr></tbody>  </table>  |
+| [ls](https://www.geeksforgeeks.org/ls-command-in-linux/)          | List files and directories       |  <table>  <tbody>  <tr>  <td>ls -l</td><td>displays files and directories with detailed information</td>  <td><img src=".././Linux/images/ls-l.PNG"   alt="test" style="width:250px;"/></td>  </tr> <tr>  <td>ls -a</td> <td>shows all files and directories, including hidden</td> <td><img src=".././Linux/images/ls-a.PNG" alt="test" style="width:600px;"/></td>  </tr> <tr>  <td>ls -lh</td> <td>displays file sizes in a human-readable format.</td> <td><img src=".././Linux/images/ls-lh.PNG" alt="test" style="width:250px;"/></td>  </tr></tbody>  </table>  |
+| [cd](https://www.geeksforgeeks.org/cd-command-in-linux-with-examples/)   | Change Directory        | <table><tbody><tr>  <td>ls -l</td><td>changes the current directory to the specified path.</td>  <td><img src=".././Linux/images/cd.PNG"   alt="test" style="width:600px;"/></td>  </tr></table></tbody>        |
+| Header      | Title       |  |
 | Paragraph   | Text        |         |
 | Header      | Title       |  |
 
