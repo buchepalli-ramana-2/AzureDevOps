@@ -3,9 +3,8 @@
 
 
 | Command     | Description | Example |
-| ----------- | ----------- |-------- |
-| ls      | listingList files and directories       |<p>ls -l <br>
-<img src=".././Linux/images/ls-l.PNG" alt="test" style="width:250px;"> </p>      |
+| :--- | :---: |:--- |
+| ls      | listingList files and directories       |  <table>  <tbody>  <tr>  <td>ls -l</td>  <td><img src=".././Linux/images/ls-l.PNG" alt="test" style="width:250px;"/></td>  </tr> <tr>  <td>ls -a</td>  <td><img src=".././Linux/images/ls-a.PNG" alt="test" style="width:600px;"/></td>  </tr> </tbody>  </table>  |
 | Paragraph   | Text        |         |
 | Header      | Title       |  |
 
