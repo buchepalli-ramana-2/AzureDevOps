@@ -1,5 +1,5 @@
-## ***Basic Commands***
-### 1. File and directory operations commands
+## ***<font color = "redblue"> Linux Basic Commands</font>***
+#### 1. File and directory operations commands
 
 
 | Command     | Description | Example |
