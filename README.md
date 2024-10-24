@@ -17,4 +17,5 @@ Terraform Azure provider documentation:
 https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs
 
 Linux Basic commands
-https://www.geeksforgeeks.org/linux-commands-cheat-sheet/
+https://www.geeksforgeeks.org/linux-commands-cheat-sheet/ and 
+https://www.hostinger.com/tutorials/linux-commands
