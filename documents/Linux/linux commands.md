@@ -1,6 +1,5 @@
 ## ***Basic Commands***
 ### 1. File and directory operations commands
-![test](.././Linux/images/test.PNG)
 <img src=".././Linux/images/test.PNG" alt="test" style="width:250px;"/>
 
 ### 2. File Permission Commands
