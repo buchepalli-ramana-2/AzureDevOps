@@ -3,11 +3,11 @@
 
 
 | Command     | Description | Example |
-| :---        | :---:       |:---:     |
+| :---        | :---:       |:---    |
 | [ls](https://www.geeksforgeeks.org/ls-command-in-linux/)          | List files and directories       |  <table>  <tbody>  <tr>  <td>ls -l</td><td>displays files and directories with detailed information</td>  <td><img src=".././Linux/images/ls-l.PNG"   alt="test" style="width:250px;"/></td>  </tr> <tr>  <td>ls -a</td> <td>shows all files and directories, including hidden</td> <td><img src=".././Linux/images/ls-a.PNG" alt="test" style="width:600px;"/></td>  </tr> <tr>  <td>ls -lh</td> <td>displays file sizes in a human-readable format.</td> <td><img src=".././Linux/images/ls-lh.PNG" alt="test" style="width:250px;"/></td>  </tr></tbody>  </table>  |
 | [cd](https://www.geeksforgeeks.org/cd-command-in-linux-with-examples/)   | Change Directory        | <table><tbody><tr>  <td>ls -l</td><td>changes the current directory to the specified path.</td>  <td><img src=".././Linux/images/cd.PNG"   alt="test" style="width:600px;"/></td>  </tr></table></tbody>        |
 | [pwd](https://www.geeksforgeeks.org/pwd-command-in-linux-with-examples/)   | Print current working directory        | <table><tbody><tr>  <td>pwd</td><td>displays the current working directory</td>  <td><img src=".././Linux/images/pwd.PNG"   alt="test" style="width:600px;"/></td>  </tr></tbody></table>       |
-| [mkdir](https://www.geeksforgeeks.org/mkdir-command-in-linux-with-examples/)      | Create a new directory. | <table><tbody><tr>  <td>mkdir</td><td>creates a new directory named “my_directory”</td>  <td><img src=".././Linux/images/mkdir.PNG" style="width:250px;"/></td>  </tr></tbody></table> |
+| [mkdir](https://www.geeksforgeeks.org/mkdir-command-in-linux-with-examples/)      | Create a new directory. | <table><tbody><tr>  <td>mkdir directoryname</td><td>creates a new directory named “my_directory”</td>  <td><img src=".././Linux/images/mkdir.PNG" style="width:250px;"/></td>  </tr></tbody></table> |
 | [rm](https://www.geeksforgeeks.org/rm-command-linux-examples/)      | Remove files and directories.|<table>  <tbody>  <tr>  <td>rm filename</td><td>removing file</td>  <td><img src=".././Linux/images/rm file.PNG"   alt="test" style="width:250px;"/></td>  </tr> <tr>  <td>rm -r</td> <td>deletes the directory “my_directory” and its contents.</td> <td><img src=".././Linux/images/rm r.PNG" alt="test" style="width:250px;"/></td>  </tr> <tr>  <td>rm -f filename</td> <td>forcefully deletes the file “file.txt” without confirmation</td> <td><img src=".././Linux/images/rm -f.PNG" alt="test" style="width:250px;"/></td>  </tr></tbody>  </table>  |
 | Header      | Title       |  |
 | Header      | Title       |  |
