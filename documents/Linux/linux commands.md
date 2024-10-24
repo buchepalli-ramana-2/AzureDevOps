@@ -3,8 +3,8 @@
 
 
 | Command     | Description | Example |
-| :--- | :---: |:--- |
-| ls      | List files and directories       |  <table>  <tbody>  <tr>  <td>ls -l</td>  <td><img src=".././Linux/images/ls-l.PNG" alt="test" style="width:250px;"/></td>  </tr> <tr>  <td>ls -a</td>  <td><img src=".././Linux/images/ls-a.PNG" alt="test" style="width:600px;"/></td>  </tr> </tbody>  </table>  |
+| :---        | :---:       |:---:     |
+| [ls](https://www.geeksforgeeks.org/ls-command-in-linux/)          | List files and directories       |  <table>  <tbody>  <tr>  <td>ls -l</td><td>Long format listing</td>  <td><img src=".././Linux/images/ls-l.PNG"   alt="test" style="width:250px;"/></td>  </tr> <tr>  <td>ls -a</td>  <td><img src=".././Linux/images/ls-a.PNG" alt="test" style="width:600px;"/></td>  </tr> <tr>  <td>ls -lh</td>  <td><img src=".././Linux/images/ls-lh.PNG" alt="test" style="width:250px;"/></td>  </tr></tbody>  </table>  |
 | Paragraph   | Text        |         |
 | Header      | Title       |  |
 
