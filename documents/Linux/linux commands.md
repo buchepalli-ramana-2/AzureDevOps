@@ -1,4 +1,4 @@
-## ***<font color = "redblue"> Linux Basic Commands</font>***
+## ***Linux Basic Commands***
 #### 1. File and directory operations commands
 
 
@@ -6,8 +6,7 @@
 | :---        | :---:       |:---:     |
 | [ls](https://www.geeksforgeeks.org/ls-command-in-linux/)          | List files and directories       |  <table>  <tbody>  <tr>  <td>ls -l</td><td>displays files and directories with detailed information</td>  <td><img src=".././Linux/images/ls-l.PNG"   alt="test" style="width:250px;"/></td>  </tr> <tr>  <td>ls -a</td> <td>shows all files and directories, including hidden</td> <td><img src=".././Linux/images/ls-a.PNG" alt="test" style="width:600px;"/></td>  </tr> <tr>  <td>ls -lh</td> <td>displays file sizes in a human-readable format.</td> <td><img src=".././Linux/images/ls-lh.PNG" alt="test" style="width:250px;"/></td>  </tr></tbody>  </table>  |
 | [cd](https://www.geeksforgeeks.org/cd-command-in-linux-with-examples/)   | Change Directory        | <table><tbody><tr>  <td>ls -l</td><td>changes the current directory to the specified path.</td>  <td><img src=".././Linux/images/cd.PNG"   alt="test" style="width:600px;"/></td>  </tr></table></tbody>        |
-| Header      | Title       |  |
-| Paragraph   | Text        |         |
+| [pwd](https://www.geeksforgeeks.org/pwd-command-in-linux-with-examples/)   | Print current working directory        | <table><tbody><tr>  <td>pwd</td><td>displays the current working directory</td>  <td><img src=".././Linux/images/pwd.PNG"   alt="test" style="width:600px;"/></td>  </tr></table></tbody>        |
 | Header      | Title       |  |
 
 
