@@ -19,12 +19,16 @@
 |      |      |   |
 
 
-### 2. File Permission Commands
+#### 2. File Permission Commands
 > Note: Before start with the below commands refer the [Introduction to linux permissions](https://www.digitalocean.com/community/tutorials/an-introduction-to-linux-permissions)
 
 | Command     | Description | Example |
 | :---        | :---       |:---    |
-| [chmod](https://www.geeksforgeeks.org/chmod-command-linux/)          | Change file permissions <ul><li>**u** : User/owner permissions.</li><li>**g** : Group permission</li><li>**o** : Other permissions</li><li>**+** : Add permissions</li><li>**-** : Remove permissions</li><li>**=** : Set permissions explicitly</li></ul>       |    |
+| [chmod](https://www.geeksforgeeks.org/chmod-command-linux/)          | Change file permissions <ul><li>**u** : User/owner permissions.</li><li>**g** : Group permission</li><li>**o** : Other permissions</li><li>**+** : Add permissions</li><li>**-** : Remove permissions</li><li>**=** : Set permissions explicitly</li></ul>       |<table> <tbody> <tr>  <td>chmod u+rwx file1.txt</td> <td>grants read, write, and execute permissions to the owner of the file</td>   <td><img src=".././Linux/images/chmod user.PNG"   alt="test" style="width:600px;"/></td>  </tr></tbody> </table>    |
+| [chown](https://www.geeksforgeeks.org/chown-command-in-linux-with-examples/)          | Change file ownership.       |<table><tbody><tr><td>chown user file1.txt</td><td>changes the owner of “file.txt” to the specified user.in this example file1.txt owner is root and i changed to azureuser</td>  <td><img src=".././Linux/images/chown user.PNG"   alt="test" style="width:600px;"/></td> </tr> </tbody> </table> |
+| [chgrp](https://www.geeksforgeeks.org/chgrp-command-in-linux-with-examples/)          |  Change group ownership.      |<table><tbody><tr><td>chown group file1.txt</td><td>changes the owner of “file.txt” to the specified group.in this example file1.txt group is root and i changed to azureuser</td>  <td><img src=".././Linux/images/chgrp grp.PNG"   alt="test" style="width:600px;"/></td> </tr> </tbody> </table> |
+
+
 ### 3. File Compression and Archiving Commands
 ### 4. Process Management Commands
 ### 5. System Information Commands
