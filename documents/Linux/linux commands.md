@@ -19,9 +19,10 @@
 |      |      |   |
 
 
-
-
 ### 2. File Permission Commands
+| Command     | Description | Example |
+| :---        | :---       |:---    |
+| [chmod](https://www.geeksforgeeks.org/chmod-command-linux/)          | Change file permissions <ul><li>**u**: First</li><li>Second</li></ul>       |    |
 ### 3. File Compression and Archiving Commands
 ### 4. Process Management Commands
 ### 5. System Information Commands
@@ -29,7 +30,3 @@
 ### 7. IO Redirection Commands
 ### 8. Environment Variable Commands
 ### 9. User Management Commands
-
-```image reference example```\
-```<img src=".././Linux/images/test.PNG" alt="test" style="width:250px;"/>```\
-<img src=".././Linux/images/test.PNG" alt="test" style="width:250px;"/>
