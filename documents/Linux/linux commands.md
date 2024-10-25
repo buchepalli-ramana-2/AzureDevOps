@@ -29,10 +29,16 @@
 | [chgrp](https://www.geeksforgeeks.org/chgrp-command-in-linux-with-examples/)          |  Change group ownership.      |<table><tbody><tr><td>chown group file1.txt</td><td>changes the owner of “file.txt” to the specified group.in this example file1.txt group is root and i changed to azureuser</td>  <td><img src=".././Linux/images/chgrp grp.PNG"   alt="test" style="width:600px;"/></td> </tr> </tbody> </table> |
 
 
-### 3. File Compression and Archiving Commands
-### 4. Process Management Commands
-### 5. System Information Commands
-### 6. Networking Commands
-### 7. IO Redirection Commands
-### 8. Environment Variable Commands
-### 9. User Management Commands
+#### 3. File Compression and Archiving Commands
+| Command     | Description | Example |
+| :---        | :---       |:---    |
+| [tar](https://www.geeksforgeeks.org/tar-command-linux-examples/)          | Create or extract archive files. <ul>**Options:**<li>**-c** : Create a new archive.</li><li>**-x** : Extract files from an archive.</li><li>**-f** : Specify the archive file name</li><li>**-v** : Verbose mode.</li><li>**-z** : Compress the archive with gzip.</li><li>**-j** : Compress the archive with bzip2</li></ul>       | <table><tbody><tr><td>tar -czvf sample.tar.gz sample_file.log</td><td>Creating the tar file in gz format of file,we can replace file name with directory name</td>  <td><img src=".././Linux/images/tar create.PNG"   alt="test" style="width:500px;"/></td> </tr><tr><td>tar -xzvf sample.tar.gz </td><td>Goto the directory to where need to extract tar file and then run the exmaple command.</td>  <td><img src=".././Linux/images/tar unzip.PNG"   alt="test" style="width:500px;"/></td></tr> </tbody> </table>   |
+|[gzip](https://www.geeksforgeeks.org/gzip-command-linux/)|Compress the files. use **"-d"** to decompress the files |<table><tbody><tr><td>gzip sample_file.log</td><td>It will zip only files not directory to .gz format</td>  <td><img src=".././Linux/images/gzip create.PNG"   alt="test" style="width:500px;"/></td></tr> <tr><td>gzip -d sample_file.log.gz </td><td>unzipping the .gz files</td>  <td><img src=".././Linux/images/gzip unzip.PNG"   alt="test" style="width:500px;"/></td></tr> </tbody> </table>   |
+|[zip](https://www.geeksforgeeks.org/zip-command-in-linux-with-examples/)|  Create compressed zip archives.We can use zip to multiple files in single zip file.Opttion **"-r"** will compress the recursively| <table><tbody><tr><td>zip archive.zip file1.txt file2.txt</td><td>We can zip the multiple files into single zip file</td>  <td><img src=".././Linux/images/zip create.PNG"   alt="test" style="width:500px;"/></td></tr> <tr><td>unzip archive.zip </td><td>unzipping the .zip files use unzip command</td>  <td><img src=".././Linux/images/zip unzip.PNG"   alt="test" style="width:500px;"/></td></tr> </tbody> </table>  |
+
+#### 4. Process Management Commands
+#### 5. System Information Commands
+#### 6. Networking Commands
+#### 7. IO Redirection Commands
+#### 8. Environment Variable Commands
+#### 9. User Management Commands
