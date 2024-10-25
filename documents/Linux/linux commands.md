@@ -15,14 +15,16 @@
 | [cat](https://www.geeksforgeeks.org/cat-command-in-linux-with-examples/)      | View the contents of a file.       | <table>  <tbody>  <tr>  <td>cat file.txt</td><td>displays the contents of the file “file.txt”/ create a new file with file.txt if it not exists</td>  <td><img src=".././Linux/images/cat filename.PNG"   alt="test" style="width:250px;"/></td>  </tr> </tbody>  </table> |
 | [head](https://www.geeksforgeeks.org/head-command-linux-examples/)      |  Display the first few lines of a file.      |<table>  <tbody>  <tr>  <td>head sample_file.log</td><td>shows the first 10 lines of the file “file.txt”</td>  <td><img src=".././Linux/images/head filename.PNG"   alt="test" style="width:600px;"/></td>  </tr> <tr>  <td>head -n 5 sample_file.log</td><td>displays the first 5 lines of the file “file.txt”. You can specify number of lines to display. here i given 5.</td>  <td><img src=".././Linux/images/head -n filename.PNG"   alt="test" style="width:600px;"/></td>  </tr></tbody>  </table>  |
 | [tail](https://www.geeksforgeeks.org/tail-command-linux-examples/)      | Display the last few lines of a file      |<table>  <tbody>  <tr>  <td>tail sample_file.log</td><td>shows the last 10 lines of the file “file.txt”</td>  <td><img src=".././Linux/images/tail filename.PNG"   alt="test" style="width:600px;"/></td>  </tr> <tr>  <td>head -n 5 sample_file.log</td><td>displays the last 5 lines of the file “file.txt”. You can specify number of lines to display. here i given 5.</td>  <td><img src=".././Linux/images/tail -n filename.PNG"   alt="test" style="width:600px;"/></td>  </tr></tbody>  </table>  |
-| [find](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)      | Search for files and directories.       |  <table>  <tbody>  <tr>  <td>find path/to/search "*.txt"</td><td>searches for all files with the extension “.txt” in the specified directory.In this example /home/azureuser given as path to search for txt files</td>  <td><img src=".././Linux/images/find.PNG"   alt="test" style="width:600px;"/></td>  </tbody>  </table> |
+| [find](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)      | Search for files and directories.       |  <table>  <tbody>  <tr>  <td>find path/to/search "*.txt"</td><td>searches for all files with the extension “.txt” in the specified directory.In this example /home/azureuser given as path to search for txt files</td>  <td><img src=".././Linux/images/find.PNG"   alt="test" style="width:600px;"/></td> </tr> </tbody>  </table> |
 |      |      |   |
 
 
 ### 2. File Permission Commands
+> Note: Before start with the below commands refer the [Introduction to linux permissions](https://www.digitalocean.com/community/tutorials/an-introduction-to-linux-permissions)
+
 | Command     | Description | Example |
 | :---        | :---       |:---    |
-| [chmod](https://www.geeksforgeeks.org/chmod-command-linux/)          | Change file permissions <ul><li>**u**: First</li><li>Second</li></ul>       |    |
+| [chmod](https://www.geeksforgeeks.org/chmod-command-linux/)          | Change file permissions <ul><li>**u** : User/owner permissions.</li><li>**g** : Group permission</li><li>**o** : Other permissions</li><li>**+** : Add permissions</li><li>**-** : Remove permissions</li><li>**=** : Set permissions explicitly</li></ul>       |    |
 ### 3. File Compression and Archiving Commands
 ### 4. Process Management Commands
 ### 5. System Information Commands
