@@ -70,5 +70,11 @@
 |[wget](https://www.geeksforgeeks.org/wget-command-in-linux-unix/)   | Download files from the web.   |<table><tbody><tr><td>wget http://example.com/file.txt<br>Here I am downloading one image in mygithub repo using wget. it will download cd.PNG<br>wget https://github.com/buchepalli-ramana-2/AzureDevOps/blob/main/documents/Linux/images/cd.PNG</td><td>downloads “cd.PNG” from the specified URL.</td>  <td><img src=".././Linux/images/wget.PNG"   alt="test" style="width:600px;"/></td></tr> </tbody> </table>   |
 | [curl](https://www.geeksforgeeks.org/curl-command-in-linux-with-examples/)  | Transfer data to or from a server.  |<table><tbody><tr><td>curl http://example.com<br>Please go through the link [curl](https://www.geeksforgeeks.org/curl-command-in-linux-with-examples/) for more options.</td><td>retrieves the content of a webpage from the specified URL</td>  <td><img src=".././Linux/images/curl.PNG"   alt="test" style="width:600px;"/></td></tr> </tbody> </table>   |
 #### 7. IO Redirection Commands
+> In Linux, IO (Input/Output) redirection commands are used to redirect the standard input, output, and error streams of commands and processes. Here are some commonly used IO redirection commands:
+
+| Command     | Description | Example |
+| :---        | :---       |:---    |
+| cmd < file          |Input of cmd taken from file | <table><tbody><tr><td>sort < file1.txt</td><td>'sort' command will take the contents of file1.txt and it will display the content in alphabet order </td>  <td><img src=".././Linux/images/sort.PNG"   alt="test" style="width:250px;"/></td></tr> <tr><td>unzip archive.zip </td><td>unzipping the .zip files use unzip command</td>  <td><img src=".././Linux/images/zip unzip.PNG"   alt="test" style="width:500px;"/></td></tr> </tbody> </table>   |
+
 #### 8. Environment Variable Commands
 #### 9. User Management Commands
